@@ -4,15 +4,74 @@
   <meta charset="utf-8" />
   <title>Horario</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header,
+    nav,
+    main,
+    footer {
+      padding: 20px;
+      margin: 10px;
+    }
+    header {
+      background: #f4f4f4;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      color: #fff;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      background: #e2e2e2;
+    }
+    section {
+      margin-bottom: 20px;
+    }
+    h1,
+    h2,
+    h3 {
+      color: #333;
+    }
+    footer {
+      background: #f4f4f4;
+      text-align: center;
+      font-size: 0.9em;
+      color: #555;
+    }
+    .Horario {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;   
+    }
+    #horarioSemestre {
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
   <header>
     <figure>
         <h1>Pablo Zamora</h1>
-      <img src="imagenes/fotoPersonal.png" width="200" alt="Fotografía de Pablo Zamora" />
+      <img src="imagenes/fotoPersonal.png" width="200" alt="Pablo Zamora"/>
     </figure>
     <p>
-      Github: <a href="https://github.com/pablozg12" target="_blank" rel="noopener">pablozg12</a> Correo: <a href="mailto:pablo.zamora251931@potros.itson.edu.mx">pablo.zamora251931@potros.itson.edu.mx</a>
+      Github: <a href="https://github.com/pablozg12" target="_blank" rel="noopener">pablozg12</a> 
+      <br>
+      Correo: <a href="mailto:pablo.zamora251931@potros.itson.edu.mx">pablo.zamora251931@potros.itson.edu.mx</a>
     </p>
   </header>
 
@@ -24,8 +83,8 @@
 
   <main>
     <section id="horario">
-      <h2>Horario de mi semestre actual</h2>
-            <img src="imagenes/horario.png" alt="Horario" />
+      <h2 id="horarioSemestre">Horario de mi semestre actual</h2>
+            <img src="imagenes/horario.png" alt="Horario" class="Horario"/>
     </section>
   </main>
 
